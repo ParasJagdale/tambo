@@ -1,5 +1,9 @@
 # Student Performance Analytics with Tambo AI
 
+![Dashboard Screenshot](https://github.com/user-attachments/assets/SCREENSHOT_URL)
+
+**🎥 [Demo Video](https://github.com/user-attachments/assets/VIDEO_URL)** - Watch the AI-powered analytics in action
+
 A Next.js starter template for AI-powered student performance analytics using **Tambo AI**, **Prisma ORM**, and **Generative UI**. Analyze student data, identify low performers, and generate insights in real-time.
 
 ## 🎯 Features
@@ -9,7 +13,7 @@ A Next.js starter template for AI-powered student performance analytics using **
 - ✅ **Student Performance Tools** - Fetch all students, identify low performers, aggregate by subject
 - ✅ **Type-Safe API Routes** - Server-side data access with Zod validation
 - ✅ **Real-Time Data** - Seed sample data and run migrations instantly
-- ✅ **Production-Ready** - Migration paths for PostgreSQL and MySQL
+- ✅ **Extensible Database Setup** - Easy migration from SQLite to PostgreSQL/MySQL
 
 ## 🚀 Quick Start
 
@@ -186,10 +190,8 @@ npm run seed           # Seed database
 ## 📖 Learn More
 
 - [Tambo AI Docs](https://docs.tambo.co/)
-- [Tambo Tools Guide](https://docs.tambo.co/concepts/tools)
-- [Generative Components](https://docs.tambo.co/concepts/generative-interfaces/generative-components)
+- [Tambo Tools](https://docs.tambo.co/concepts/tools)
 - [Prisma Documentation](https://www.prisma.io/docs)
-- [Next.js API Routes](https://nextjs.org/docs/app/building-your-application/routing/route-handlers)
 
 ## 📝 Environment Setup
 
@@ -215,15 +217,7 @@ Run `npm run seed` to populate the database with sample data.
 
 ## 🚀 Deployment
 
-### Vercel (Recommended)
-
-1. Connect your GitHub repo to Vercel
-2. Set environment variables in Vercel dashboard
-3. Deploy automatically on push
-
-### Other Platforms
-
-Ensure your hosting supports Node.js 18+. Set `DATABASE_URL` environment variable to your production database.
+This template works with standard Next.js deployment platforms such as Vercel. Ensure required environment variables are configured.
 
 ---
 
